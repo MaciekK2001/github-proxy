@@ -38,3 +38,5 @@ API:
 
 - poprawne pobranie listy repozytoriów w sytuacji, gdzie jedno repozytorium jest 'forkiem', a drugie nie
 - zwrócenie błędu ze statusem 404 i wiadomością dotyczącą błędu w przypadku próby pobrania danych od nieistniejącego użytkownika
+
+w `application.properties` można dodać token z github'a w przypadku wyczerpania limitu zapytań nieutoryzowanych.
